@@ -13,7 +13,7 @@
   
   ### 2.配置AI大模型与你目标AI的设定
   打开wx机器人.py源代码，在下图位置进行配置
-  ![image](https://github.com/user-attachments/assets/917e573a-496b-43b8-8ca5-8837d1eab233)
+  ![image](https://github.com/user-attachments/assets/26011602-d29b-497f-b148-479ac0dc03b9)
   推荐以下两个平台获取大模型配置
   
   https://bigmodel.cn/console/overview
