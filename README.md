@@ -10,30 +10,33 @@
   打开命令行（win+r，输入cmd并回车），先cd到本项目根目录，然后输入以下命令：
   
   pip install -r requirements.txt
+  （如有问题，就一个一个进行pip）
   
   ### 2.配置AI大模型与你目标AI的设定
-  打开wx机器人.py源代码，在下图位置进行配置
-  ![image](https://github.com/user-attachments/assets/26011602-d29b-497f-b148-479ac0dc03b9)
+  打开set.json配置信息，添加监听对象，如果当前聊天模型拥有视觉，则recognize_model可以为空。
+  ![image](https://github.com/user-attachments/assets/27010bf6-90a1-4ddc-9e50-71e469145c7a)
   推荐以下两个平台获取大模型配置
   
-  https://bigmodel.cn/console/overview
+  https://phapi.furina.chat/panel
   或
-  https://cloud.siliconflow.cn/i/zp70SCoe（该平台模型更全一点）
+  https://cloud.siliconflow.cn/i/zp70SCoe
   
-  如果连大模型怎么调用api都不清楚，这里就不详细展开了，自行百度或前往相关平台的开发文档进行了解。
-  
-  ### 3.添加监听对象列表
-  把你想调用AI回复的群聊或对象加到该监听列表，一定注意名字正确且不重复。
-  ![image](https://github.com/user-attachments/assets/8bb81844-7af7-4444-a650-4fb64f310018)
+  如果连大模型怎么调用api都不清楚，这里就不详细展开了，自行搜索或前往相关平台的开发文档进行了解。
+ 
 
-  ### 4.添加表情包库（如不需要可以将n改为其他值）
-  ![image](https://github.com/user-attachments/assets/bf512660-8a89-4f6b-b55f-7aa788bb144e)
-  每次对话都会从本地表情包库中随机选择表情包进行发送（可以理解为句话）
+  ### 3.添加表情包库（如不需要可以将n改为其他值）
+  ![image](https://github.com/user-attachments/assets/d1bed6b0-47fa-45f2-818c-64f86855ff3e)
+
+  每次对话都会根据情绪随机从本地表情包库中选择表情包进行发送
+
+  表情包名字需要以以下情感命名，可以自行修改
+  ![image](https://github.com/user-attachments/assets/2d0c2e49-fcdd-4f85-bea4-4c01f1523408)
+
 
 # 开始
 
   登录你需要接入AI回复的微信账号，程序会自动搜索监听对象，并打开独立小窗，打开后挂后台即可，
-  使用AI触发词测试，正常回复后就可以使用啦，每次唤醒AI，默认回复三次对话。
+  使用AI触发词测试，正常回复后就可以使用啦，每次唤醒AI，默认回复三次对话（方便控制机器人在群里时是否发言）。
 
 # 补充
   ### 1.在使用搜索时加上“详细”二字可以让AI输出完整搜索内容。
