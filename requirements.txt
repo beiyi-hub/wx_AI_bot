@@ -1,5 +1,4 @@
 wxauto
-time
 requests
 jieba.analyse
 json
@@ -8,3 +7,4 @@ random
 os
 base64
 zhipuai
+threading
