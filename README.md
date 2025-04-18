@@ -1,5 +1,5 @@
 # 🤖 wx_AI_bot - 智能微信聊天机器人
-
+# 介绍
 ![License](https://img.shields.io/badge/Version-1.0.0-blue) 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 
@@ -66,3 +66,13 @@ TIG系列模型由幻宙团队开发，模型目前仍在推广期，欢迎加�
 # 最后
 感谢幻日大佬的[qbot](https://github.com/TIGillusion/Qbot)项目提供灵感与思路（程序作者为一名高中毕业生，接触编程时间不久，代码可能没有那么优雅，还请谅解）。
 如果觉得项目不错，还请不要吝啬你手中的star哦，当然如果能帮助推广宣传那就更好啦（啾咪）❤️
+
+# 使用
+**1.下载压缩包后，随便找个文件夹解压，随后调用终端输入以下指令安装必要的包（需要配置3.11版本python环境）
+'python -m pip install -r requirements.txt'
+2.点开set.json填入你获取的模型秘钥以及AI的唤醒词与管理员和默认回复群聊
+3.点开系统提示词.txt文件填写修改你的角色人设
+4.如有需要配置自定义表情包，不需要的话在set.json中的meme处填写false
+5.语音合成详见上文，一般不影响程序运行
+走完以上步骤后即可启动使用啦**
+
